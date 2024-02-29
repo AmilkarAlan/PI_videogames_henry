@@ -1,0 +1,30 @@
+.main_grid{
+    border-radius: 8px;
+    background-color: #121212;
+    cursor: default;
+}
+
+.main_grid a {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 40px;
+    color: #797777;
+    transition: color .3s ease-in;
+}
+
+.main_grid a:hover {
+    color: beige;
+}
+.buttonsContainer {
+    display: flex;
+    padding: 8px 12px;
+}
+
+.homeButonContainer {
+    padding: 4px 12px;
+}
+
+.searchButonContainer {
+    padding: 4px 12px;
+}

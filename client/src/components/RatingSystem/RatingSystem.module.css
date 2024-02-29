@@ -1,0 +1,11 @@
+.rating_stars {
+    font-size: 24px;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star.filled {
+    color: #fdd835;
+  }

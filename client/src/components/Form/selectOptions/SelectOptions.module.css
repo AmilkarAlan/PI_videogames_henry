@@ -1,0 +1,25 @@
+.inputContainer {
+    height: 120px;
+    width: 320px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: scroll;
+
+    gap: 8px;
+}
+
+.inputWrapped {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.inputName {
+    text-align: start;
+}
